@@ -1,0 +1,32 @@
+{
+  "name": "learn-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contract implementations for understanding solidity.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essential-links/learn-blockchain.git"
+  },
+  "keywords": [
+    "Solidity",
+    "Ethereum",
+    "Blockchain"
+  ],
+  "author": "Essential Links",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essential-links/learn-blockchain/issues"
+  },
+  "homepage": "https://github.com/essential-links/learn-blockchain#readme",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15"
+  }
+}
