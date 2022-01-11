@@ -8,7 +8,6 @@
   },
   "scripts": {
     "compile": "truffle compile",
-    "migrate": "truffle migrate --reset",
     "test": "truffle test"
   },
   "repository": {
